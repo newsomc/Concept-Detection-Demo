@@ -1,0 +1,269 @@
+{
+  "note": "Small hand-authored held-out smoke benchmark, not a production accuracy estimate. Thresholds selected on a separate validation split. Do not tune on this test split.",
+  "training": 511,
+  "validation": 63,
+  "test": 28,
+  "precision": 0.8,
+  "recall": 0.8,
+  "f1": 0.8,
+  "exactMatch": 0.6785714285714286,
+  "cases": [
+    {
+      "text": "Best for youngsters aged seven through ten.",
+      "labels": [
+        "Age Group"
+      ],
+      "predicted": [
+        "Age Group"
+      ],
+      "correct": true
+    },
+    {
+      "text": "You will have to screw the four legs into the base.",
+      "labels": [
+        "Assembly"
+      ],
+      "predicted": [
+        "Assembly"
+      ],
+      "correct": true
+    },
+    {
+      "text": "Delivered ready to use with nothing to put together.",
+      "labels": [
+        "Assembly"
+      ],
+      "predicted": [
+        "Assembly"
+      ],
+      "correct": true
+    },
+    {
+      "text": "There is room inside for eighteen eggs.",
+      "labels": [
+        "Capacity"
+      ],
+      "predicted": [],
+      "correct": false
+    },
+    {
+      "text": "Use a moist rag to gently remove marks.",
+      "labels": [
+        "Care"
+      ],
+      "predicted": [
+        "Care",
+        "Finish"
+      ],
+      "correct": false
+    },
+    {
+      "text": "Launder on the delicate setting and hang to dry.",
+      "labels": [
+        "Care"
+      ],
+      "predicted": [
+        "Care"
+      ],
+      "correct": true
+    },
+    {
+      "text": "This has been certified under the Global Organic Textile Standard.",
+      "labels": [
+        "Certifications"
+      ],
+      "predicted": [
+        "Certifications",
+        "Material"
+      ],
+      "correct": false
+    },
+    {
+      "text": "Designed to attach to a standard bicycle handlebar.",
+      "labels": [
+        "Compatibility"
+      ],
+      "predicted": [
+        "Compatibility"
+      ],
+      "correct": true
+    },
+    {
+      "text": "You get one large piece and two smaller ones in the box.",
+      "labels": [
+        "Contents"
+      ],
+      "predicted": [],
+      "correct": false
+    },
+    {
+      "text": "The unit is 72 cm wide and 38 cm deep.",
+      "labels": [
+        "Dimensions"
+      ],
+      "predicted": [
+        "Dimensions"
+      ],
+      "correct": true
+    },
+    {
+      "text": "The back reclines into three positions.",
+      "labels": [
+        "Features"
+      ],
+      "predicted": [
+        "Features"
+      ],
+      "correct": true
+    },
+    {
+      "text": "Protected by a layer of clear lacquer.",
+      "labels": [
+        "Finish"
+      ],
+      "predicted": [
+        "Finish"
+      ],
+      "correct": true
+    },
+    {
+      "text": "Crafted entirely from maple timber.",
+      "labels": [
+        "Material"
+      ],
+      "predicted": [
+        "Material"
+      ],
+      "correct": true
+    },
+    {
+      "text": "Have a short dedication etched on the underside.",
+      "labels": [
+        "Personalization"
+      ],
+      "predicted": [],
+      "correct": false
+    },
+    {
+      "text": "This is a jewelry storage box.",
+      "labels": [
+        "Product Type"
+      ],
+      "predicted": [
+        "Material",
+        "Product Type"
+      ],
+      "correct": false
+    },
+    {
+      "text": "The distance between the floor and the seating surface is 52 cm.",
+      "labels": [
+        "Seat Height"
+      ],
+      "predicted": [
+        "Seat Height"
+      ],
+      "correct": true
+    },
+    {
+      "text": "Its aesthetic takes inspiration from Scandinavian minimalism.",
+      "labels": [
+        "Style"
+      ],
+      "predicted": [
+        "Style"
+      ],
+      "correct": true
+    },
+    {
+      "text": "The pattern depicts bunnies among wildflowers.",
+      "labels": [
+        "Theme"
+      ],
+      "predicted": [
+        "Theme"
+      ],
+      "correct": true
+    },
+    {
+      "text": "A rustic oak dining table.",
+      "labels": [
+        "Product Type",
+        "Material",
+        "Style"
+      ],
+      "predicted": [
+        "Material",
+        "Product Type",
+        "Style"
+      ],
+      "correct": true
+    },
+    {
+      "text": "A cotton baby blanket printed with stars.",
+      "labels": [
+        "Product Type",
+        "Material",
+        "Age Group",
+        "Theme"
+      ],
+      "predicted": [
+        "Material",
+        "Product Type"
+      ],
+      "correct": false
+    },
+    {
+      "text": "Made with care in our studio.",
+      "labels": [],
+      "predicted": [],
+      "correct": true
+    },
+    {
+      "text": "Please include the dimensions and care information.",
+      "labels": [],
+      "predicted": [],
+      "correct": true
+    },
+    {
+      "text": "Do you offer personalization?",
+      "labels": [],
+      "predicted": [
+        "Personalization"
+      ],
+      "correct": false
+    },
+    {
+      "text": "No dimensions have been provided.",
+      "labels": [],
+      "predicted": [],
+      "correct": true
+    },
+    {
+      "text": "Age group and certifications.",
+      "labels": [],
+      "predicted": [
+        "Certifications"
+      ],
+      "correct": false
+    },
+    {
+      "text": "I will finish the order soon.",
+      "labels": [],
+      "predicted": [],
+      "correct": true
+    },
+    {
+      "text": "It costs thirty dollars.",
+      "labels": [],
+      "predicted": [],
+      "correct": true
+    },
+    {
+      "text": "What is the seat height?",
+      "labels": [],
+      "predicted": [],
+      "correct": true
+    }
+  ]
+}

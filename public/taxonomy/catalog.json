@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "seating",
+      "name": "Chairs & benches",
+      "path": [
+        "Home",
+        "Furniture"
+      ],
+      "sample": "A rustic oak dining chair for adults. The seat is 18 inches above the floor. Overall dimensions are 34 by 18 by 20 inches. Supports 250 pounds. A reinforced backrest provides support. All assembly hardware is included. Wipe clean with a damp cloth.",
+      "descriptorCount": 16
+    },
+    {
+      "id": "drinkware",
+      "name": "Mugs & cups",
+      "path": [
+        "Home",
+        "Tableware"
+      ],
+      "sample": "A handmade ceramic mug with a glossy blue glaze. Holds 350 ml. Hand wash only. Decorated with stars and moons. Your initials can be added. One mug is included.",
+      "descriptorCount": 10
+    },
+    {
+      "id": "candles",
+      "name": "Candles",
+      "path": [
+        "Home",
+        "Fragrance"
+      ],
+      "sample": "A soy wax candle scented with lavender and cedar. It burns for approximately 40 hours and uses a braided cotton wick. Trim the wick before each use. The jar is amber brown.",
+      "descriptorCount": 10
+    },
+    {
+      "id": "necklaces",
+      "name": "Necklaces",
+      "path": [
+        "Accessories",
+        "Jewelry"
+      ],
+      "sample": "A sterling silver pendant necklace set with moonstone. The chain is 45 centimeters long and fastens with a lobster clasp. Wipe gently with a polishing cloth. Add an engraved initial.",
+      "descriptorCount": 10
+    },
+    {
+      "id": "tops",
+      "name": "Shirts & tops",
+      "path": [
+        "Apparel",
+        "Clothing"
+      ],
+      "sample": "A cotton T-shirt in navy blue, offered in sizes small through extra large. A relaxed fit with short sleeves. Machine wash cold. Printed with woodland animals.",
+      "descriptorCount": 10
+    },
+    {
+      "id": "prints",
+      "name": "Art prints",
+      "path": [
+        "Art",
+        "Wall decor"
+      ],
+      "sample": "A botanical art print made using archival giclee printing. Printed on cotton paper, measuring 8 by 10 inches. Delivered unframed. The illustration features ferns and wildflowers.",
+      "descriptorCount": 10
+    },
+    {
+      "id": "bags",
+      "name": "Bags & totes",
+      "path": [
+        "Accessories",
+        "Bags"
+      ],
+      "sample": "A canvas tote bag with a zip closure and an adjustable shoulder strap from 80 to 120 cm. Measures 35 by 30 by 12 cm. A hidden interior pocket holds small items. Spot clean only.",
+      "descriptorCount": 10
+    },
+    {
+      "id": "blankets",
+      "name": "Blankets & throws",
+      "path": [
+        "Home",
+        "Textiles"
+      ],
+      "sample": "A wool throw blanket measuring 130 by 170 cm. Dry clean only. The color is forest green. One blanket is included, with an optional embroidered monogram.",
+      "descriptorCount": 10
+    }
+  ],
+  "provenance": {
+    "version": 1,
+    "source": "Independently authored demo taxonomy using common marketplace product concepts.",
+    "externalData": false,
+    "note": "Not affiliated with Etsy; no Etsy API data, scraped listings or reconstructed taxonomy identifiers."
+  }
+}

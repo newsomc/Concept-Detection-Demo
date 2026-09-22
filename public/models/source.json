@@ -1,0 +1,8 @@
+{
+  "repository": "Xenova/paraphrase-MiniLM-L3-v2",
+  "revision": "4b544e74dfc3256b2b56849ea5d7064fee1ac846",
+  "license": "Apache-2.0",
+  "source": "https://huggingface.co/Xenova/paraphrase-MiniLM-L3-v2",
+  "encoder": "17.4M parameters; q8 ONNX",
+  "note": "Frozen pretrained semantic encoder; task-specific supervised head trained separately."
+}

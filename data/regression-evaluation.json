@@ -1,0 +1,469 @@
+{
+  "note": "Known development regressions, not an independent accuracy benchmark.",
+  "cases": [
+    {
+      "name": "User dining-chair description",
+      "expected": [
+        "Age Group",
+        "Assembly",
+        "Capacity",
+        "Care",
+        "Compatibility",
+        "Contents",
+        "Dimensions",
+        "Features",
+        "Finish",
+        "Material",
+        "Personalization",
+        "Product Type",
+        "Seat Height",
+        "Style"
+      ],
+      "predicted": [
+        "Age Group",
+        "Assembly",
+        "Capacity",
+        "Care",
+        "Compatibility",
+        "Contents",
+        "Dimensions",
+        "Features",
+        "Finish",
+        "Material",
+        "Personalization",
+        "Product Type",
+        "Seat Height",
+        "Style"
+      ],
+      "missed": [],
+      "unexpected": [],
+      "results": [
+        {
+          "name": "Age Group",
+          "detected": true,
+          "confidence": 0.9672850605817103,
+          "evidence": "Made for adults and older teens"
+        },
+        {
+          "name": "Assembly",
+          "detected": true,
+          "confidence": 0.7553997751119432,
+          "evidence": "Minor assembly is required"
+        },
+        {
+          "name": "Capacity",
+          "detected": true,
+          "confidence": 0.9180919238077114,
+          "evidence": "supports up to 250 pounds."
+        },
+        {
+          "name": "Care",
+          "detected": true,
+          "confidence": 0.9483428707977235,
+          "evidence": "For care, simply wipe clean with a soft, damp cloth and avoid harsh chemical cleaners."
+        },
+        {
+          "name": "Certifications",
+          "detected": false,
+          "confidence": 0.14132946575726152,
+          "evidence": "so please contact us before ordering if you have a specific customization request."
+        },
+        {
+          "name": "Compatibility",
+          "detected": true,
+          "confidence": 0.8590709466204343,
+          "evidence": "This wooden dining chair is compatible with most standard-height dining tables"
+        },
+        {
+          "name": "Contents",
+          "detected": true,
+          "confidence": 0.8591686539584261,
+          "evidence": "and all necessary hardware is included."
+        },
+        {
+          "name": "Dimensions",
+          "detected": true,
+          "confidence": 0.9585857416580325,
+          "evidence": "The chair measures approximately 34 inches high by 18 inches wide by 20 inches deep"
+        },
+        {
+          "name": "Features",
+          "detected": true,
+          "confidence": 0.7175984719057892,
+          "evidence": "this chair features a supportive back"
+        },
+        {
+          "name": "Finish",
+          "detected": true,
+          "confidence": 0.8237648861248271,
+          "evidence": "a smooth protective finish"
+        },
+        {
+          "name": "Material",
+          "detected": true,
+          "confidence": 0.9593343188615101,
+          "evidence": "is made using responsibly sourced wood materials."
+        },
+        {
+          "name": "Personalization",
+          "detected": true,
+          "confidence": 0.9542959963661813,
+          "evidence": "Personalization is available for select finishes or engraved details, so please contact us before ordering if you have a specific customization request."
+        },
+        {
+          "name": "Product Type",
+          "detected": true,
+          "confidence": 0.6957212707864961,
+          "evidence": "This wooden dining chair is compatible with most standard-height dining tables"
+        },
+        {
+          "name": "Seat Height",
+          "detected": true,
+          "confidence": 0.8401214209341469,
+          "evidence": "comfortable 18-inch seat height"
+        },
+        {
+          "name": "Style",
+          "detected": true,
+          "confidence": 0.9825164578579694,
+          "evidence": "it pairs well with modern, farmhouse, rustic, and minimalist decor."
+        },
+        {
+          "name": "Theme",
+          "detected": false,
+          "confidence": 0.02913373966567355,
+          "evidence": "it pairs well with modern, farmhouse, rustic, and minimalist decor."
+        }
+      ]
+    },
+    {
+      "name": "Sourcing is not certification",
+      "expected": [
+        "Material"
+      ],
+      "predicted": [
+        "Material"
+      ],
+      "missed": [],
+      "unexpected": [],
+      "results": [
+        {
+          "name": "Age Group",
+          "detected": false,
+          "confidence": 0.010150376841101946,
+          "evidence": "Made using responsibly sourced wood materials."
+        },
+        {
+          "name": "Assembly",
+          "detected": false,
+          "confidence": 0.06769829106527035,
+          "evidence": "Made using responsibly sourced wood materials."
+        },
+        {
+          "name": "Capacity",
+          "detected": false,
+          "confidence": 0.02497532501900888,
+          "evidence": "Made using responsibly sourced wood materials."
+        },
+        {
+          "name": "Care",
+          "detected": false,
+          "confidence": 0.007101371370015521,
+          "evidence": "Made using responsibly sourced wood materials."
+        },
+        {
+          "name": "Certifications",
+          "detected": false,
+          "confidence": 0.056173437559621446,
+          "evidence": "Made using responsibly sourced wood materials."
+        },
+        {
+          "name": "Compatibility",
+          "detected": false,
+          "confidence": 0.008810661426881408,
+          "evidence": "Made using responsibly sourced wood materials."
+        },
+        {
+          "name": "Contents",
+          "detected": false,
+          "confidence": 0.019447669938329613,
+          "evidence": "Made using responsibly sourced wood materials."
+        },
+        {
+          "name": "Dimensions",
+          "detected": false,
+          "confidence": 0.004733526720471189,
+          "evidence": "Made using responsibly sourced wood materials."
+        },
+        {
+          "name": "Features",
+          "detected": false,
+          "confidence": 0.06144581124416638,
+          "evidence": "Made using responsibly sourced wood materials."
+        },
+        {
+          "name": "Finish",
+          "detected": false,
+          "confidence": 0.07056940438270866,
+          "evidence": "Made using responsibly sourced wood materials."
+        },
+        {
+          "name": "Material",
+          "detected": true,
+          "confidence": 0.9628776096114139,
+          "evidence": "Made using responsibly sourced wood materials."
+        },
+        {
+          "name": "Personalization",
+          "detected": false,
+          "confidence": 0.006277520332979066,
+          "evidence": "Made using responsibly sourced wood materials."
+        },
+        {
+          "name": "Product Type",
+          "detected": false,
+          "confidence": 0.12290391448981847,
+          "evidence": "Made using responsibly sourced wood materials."
+        },
+        {
+          "name": "Seat Height",
+          "detected": false,
+          "confidence": 0.007072290753234173,
+          "evidence": "Made using responsibly sourced wood materials."
+        },
+        {
+          "name": "Style",
+          "detected": false,
+          "confidence": 0.1957025587906209,
+          "evidence": "Made using responsibly sourced wood materials."
+        },
+        {
+          "name": "Theme",
+          "detected": false,
+          "confidence": 0.01430366901170594,
+          "evidence": "Made using responsibly sourced wood materials."
+        }
+      ]
+    },
+    {
+      "name": "Decor styles are not themes",
+      "expected": [
+        "Style"
+      ],
+      "predicted": [
+        "Style"
+      ],
+      "missed": [],
+      "unexpected": [],
+      "results": [
+        {
+          "name": "Age Group",
+          "detected": false,
+          "confidence": 0.021635789236947645,
+          "evidence": "It pairs well with modern, farmhouse, rustic, and minimalist decor."
+        },
+        {
+          "name": "Assembly",
+          "detected": false,
+          "confidence": 0.005217719355922654,
+          "evidence": "It pairs well with modern, farmhouse, rustic, and minimalist decor."
+        },
+        {
+          "name": "Capacity",
+          "detected": false,
+          "confidence": 0.013758437116995429,
+          "evidence": "It pairs well with modern, farmhouse, rustic, and minimalist decor."
+        },
+        {
+          "name": "Care",
+          "detected": false,
+          "confidence": 0.0065373055160035725,
+          "evidence": "It pairs well with modern, farmhouse, rustic, and minimalist decor."
+        },
+        {
+          "name": "Certifications",
+          "detected": false,
+          "confidence": 0.0015595156444450687,
+          "evidence": "It pairs well with modern, farmhouse, rustic, and minimalist decor."
+        },
+        {
+          "name": "Compatibility",
+          "detected": false,
+          "confidence": 0.09549952172592006,
+          "evidence": "It pairs well with modern, farmhouse, rustic, and minimalist decor."
+        },
+        {
+          "name": "Contents",
+          "detected": false,
+          "confidence": 0.020019874071393697,
+          "evidence": "It pairs well with modern, farmhouse, rustic, and minimalist decor."
+        },
+        {
+          "name": "Dimensions",
+          "detected": false,
+          "confidence": 0.0016186671244194154,
+          "evidence": "It pairs well with modern, farmhouse, rustic, and minimalist decor."
+        },
+        {
+          "name": "Features",
+          "detected": false,
+          "confidence": 0.014772339377962159,
+          "evidence": "It pairs well with modern, farmhouse, rustic, and minimalist decor."
+        },
+        {
+          "name": "Finish",
+          "detected": false,
+          "confidence": 0.03073747330023401,
+          "evidence": "It pairs well with modern, farmhouse, rustic, and minimalist decor."
+        },
+        {
+          "name": "Material",
+          "detected": false,
+          "confidence": 0.301600186152514,
+          "evidence": "It pairs well with modern, farmhouse, rustic, and minimalist decor."
+        },
+        {
+          "name": "Personalization",
+          "detected": false,
+          "confidence": 0.005399884271935166,
+          "evidence": "It pairs well with modern, farmhouse, rustic, and minimalist decor."
+        },
+        {
+          "name": "Product Type",
+          "detected": false,
+          "confidence": 0.07791189560782157,
+          "evidence": "It pairs well with modern, farmhouse, rustic, and minimalist decor."
+        },
+        {
+          "name": "Seat Height",
+          "detected": false,
+          "confidence": 0.0024307138814221893,
+          "evidence": "It pairs well with modern, farmhouse, rustic, and minimalist decor."
+        },
+        {
+          "name": "Style",
+          "detected": true,
+          "confidence": 0.9825164578579694,
+          "evidence": "It pairs well with modern, farmhouse, rustic, and minimalist decor."
+        },
+        {
+          "name": "Theme",
+          "detected": false,
+          "confidence": 0.02913373966567355,
+          "evidence": "It pairs well with modern, farmhouse, rustic, and minimalist decor."
+        }
+      ]
+    },
+    {
+      "name": "Explicit certification and theme still count",
+      "expected": [
+        "Certifications",
+        "Theme"
+      ],
+      "predicted": [
+        "Certifications",
+        "Theme"
+      ],
+      "missed": [],
+      "unexpected": [],
+      "results": [
+        {
+          "name": "Age Group",
+          "detected": false,
+          "confidence": 0.019314560497135654,
+          "evidence": "Printed with a pattern of forest animals."
+        },
+        {
+          "name": "Assembly",
+          "detected": false,
+          "confidence": 0.021417621598000994,
+          "evidence": "Carries FSC certification."
+        },
+        {
+          "name": "Capacity",
+          "detected": false,
+          "confidence": 0.07458967870324214,
+          "evidence": "Carries FSC certification."
+        },
+        {
+          "name": "Care",
+          "detected": false,
+          "confidence": 0.012339566923606987,
+          "evidence": "Printed with a pattern of forest animals."
+        },
+        {
+          "name": "Certifications",
+          "detected": true,
+          "confidence": 0.9598169641561508,
+          "evidence": "Carries FSC certification."
+        },
+        {
+          "name": "Compatibility",
+          "detected": false,
+          "confidence": 0.10103882796519309,
+          "evidence": "Carries FSC certification."
+        },
+        {
+          "name": "Contents",
+          "detected": false,
+          "confidence": 0.12373737891594316,
+          "evidence": "Printed with a pattern of forest animals."
+        },
+        {
+          "name": "Dimensions",
+          "detected": false,
+          "confidence": 0.0248263818026229,
+          "evidence": "Carries FSC certification."
+        },
+        {
+          "name": "Features",
+          "detected": false,
+          "confidence": 0.06035144145596178,
+          "evidence": "Carries FSC certification."
+        },
+        {
+          "name": "Finish",
+          "detected": false,
+          "confidence": 0.029205427065426354,
+          "evidence": "Printed with a pattern of forest animals."
+        },
+        {
+          "name": "Material",
+          "detected": false,
+          "confidence": 0.20344512144157517,
+          "evidence": "Printed with a pattern of forest animals."
+        },
+        {
+          "name": "Personalization",
+          "detected": false,
+          "confidence": 0.046115086392796316,
+          "evidence": "Printed with a pattern of forest animals."
+        },
+        {
+          "name": "Product Type",
+          "detected": false,
+          "confidence": 0.07582809790516143,
+          "evidence": "Printed with a pattern of forest animals."
+        },
+        {
+          "name": "Seat Height",
+          "detected": false,
+          "confidence": 0.002958286335141251,
+          "evidence": "Carries FSC certification."
+        },
+        {
+          "name": "Style",
+          "detected": false,
+          "confidence": 0.02722585379310097,
+          "evidence": "Printed with a pattern of forest animals."
+        },
+        {
+          "name": "Theme",
+          "detected": true,
+          "confidence": 0.9479792900802043,
+          "evidence": "Printed with a pattern of forest animals."
+        }
+      ]
+    }
+  ]
+}

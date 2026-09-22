@@ -1,0 +1,15 @@
+node_modules/
+.pnpm-store/
+dist/
+.DS_Store
+.env
+.env.*
+!.env.example
+public/models/encoder/
+public/wasm/
+data/embeddings.json
+data/embeddings-use.json
+public/models/use/
+public/tfjs-wasm/
+.sites-runtime/
+data/question-embeddings.json

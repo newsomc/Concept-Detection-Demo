@@ -1,0 +1,1578 @@
+{
+  "note": "Synthetic seed benchmark. Exact support-example overlaps removed. Composite sentences share parents only within their split. Unseen descriptors have runtime support examples but no training or validation pairs.",
+  "threshold": 0.75,
+  "counts": {
+    "training": 690,
+    "validation": 155,
+    "test": 80,
+    "unseen": 40
+  },
+  "trainingPairs": 17940,
+  "seen": {
+    "precision": 0.9042553191489362,
+    "recall": 0.6115107913669064,
+    "f1": 0.7296137339055794,
+    "f05": 0.8252427184466019,
+    "exactMatch": 0.4625,
+    "tp": 85,
+    "fp": 9,
+    "fn": 54,
+    "cases": [
+      {
+        "text": "Best for youngsters aged seven through ten.",
+        "expected": [
+          "age_group"
+        ],
+        "predicted": [
+          "age_group"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "You will have to screw the four legs into the base.",
+        "expected": [
+          "assembly"
+        ],
+        "predicted": [],
+        "missing": [
+          "assembly"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Delivered ready to use with nothing to put together.",
+        "expected": [
+          "assembly"
+        ],
+        "predicted": [
+          "assembly"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "There is room inside for eighteen eggs.",
+        "expected": [
+          "capacity"
+        ],
+        "predicted": [],
+        "missing": [
+          "capacity"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Use a moist rag to gently remove marks.",
+        "expected": [
+          "care"
+        ],
+        "predicted": [
+          "care"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Launder on the delicate setting and hang to dry.",
+        "expected": [
+          "care"
+        ],
+        "predicted": [
+          "care"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "This has been certified under the Global Organic Textile Standard.",
+        "expected": [
+          "certifications"
+        ],
+        "predicted": [],
+        "missing": [
+          "certifications"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Designed to attach to a standard bicycle handlebar.",
+        "expected": [
+          "compatibility"
+        ],
+        "predicted": [],
+        "missing": [
+          "compatibility"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "You get one large piece and two smaller ones in the box.",
+        "expected": [
+          "contents"
+        ],
+        "predicted": [
+          "contents"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "The unit is 72 cm wide and 38 cm deep.",
+        "expected": [
+          "dimensions"
+        ],
+        "predicted": [],
+        "missing": [
+          "dimensions"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "The back reclines into three positions.",
+        "expected": [
+          "features"
+        ],
+        "predicted": [],
+        "missing": [
+          "features"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Protected by a layer of clear lacquer.",
+        "expected": [
+          "finish"
+        ],
+        "predicted": [
+          "finish"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Crafted entirely from maple timber.",
+        "expected": [
+          "material"
+        ],
+        "predicted": [
+          "material"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Have a short dedication etched on the underside.",
+        "expected": [
+          "personalization"
+        ],
+        "predicted": [],
+        "missing": [
+          "personalization"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "This is a jewelry storage box.",
+        "expected": [
+          "product_type"
+        ],
+        "predicted": [
+          "product_type",
+          "chain_length"
+        ],
+        "missing": [],
+        "unexpected": [
+          "chain_length"
+        ]
+      },
+      {
+        "text": "The distance between the floor and the seating surface is 52 cm.",
+        "expected": [
+          "seat_height"
+        ],
+        "predicted": [
+          "seat_height"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Its aesthetic takes inspiration from Scandinavian minimalism.",
+        "expected": [
+          "style"
+        ],
+        "predicted": [
+          "style"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "The pattern depicts bunnies among wildflowers.",
+        "expected": [
+          "theme"
+        ],
+        "predicted": [],
+        "missing": [
+          "theme"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "A rustic oak dining table.",
+        "expected": [
+          "product_type",
+          "material",
+          "style"
+        ],
+        "predicted": [
+          "compatibility",
+          "product_type",
+          "style"
+        ],
+        "missing": [
+          "material"
+        ],
+        "unexpected": [
+          "compatibility"
+        ]
+      },
+      {
+        "text": "A cotton baby blanket printed with stars.",
+        "expected": [
+          "product_type",
+          "material",
+          "age_group",
+          "theme"
+        ],
+        "predicted": [
+          "material"
+        ],
+        "missing": [
+          "product_type",
+          "age_group",
+          "theme"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Made with care in our studio.",
+        "expected": [],
+        "predicted": [],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Please include the dimensions and care information.",
+        "expected": [],
+        "predicted": [],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Do you offer personalization?",
+        "expected": [],
+        "predicted": [],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "No dimensions have been provided.",
+        "expected": [],
+        "predicted": [],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Age group and certifications.",
+        "expected": [],
+        "predicted": [],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "It costs thirty dollars.",
+        "expected": [],
+        "predicted": [],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "The exterior is bright turquoise.",
+        "expected": [
+          "color"
+        ],
+        "predicted": [],
+        "missing": [
+          "color"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "The shade is dusty rose.",
+        "expected": [
+          "color"
+        ],
+        "predicted": [
+          "color"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Fits chest measurements of 96 to 102 centimeters.",
+        "expected": [
+          "clothing_size"
+        ],
+        "predicted": [
+          "dimensions",
+          "clothing_size"
+        ],
+        "missing": [],
+        "unexpected": [
+          "dimensions"
+        ]
+      },
+      {
+        "text": "You can order a size triple XL.",
+        "expected": [
+          "clothing_size"
+        ],
+        "predicted": [
+          "clothing_size"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "The silhouette is loose and flowing.",
+        "expected": [
+          "fit"
+        ],
+        "predicted": [
+          "fit"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Cut generously across the shoulders.",
+        "expected": [
+          "fit"
+        ],
+        "predicted": [
+          "fit"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "The arms are left uncovered by this sleeveless design.",
+        "expected": [
+          "sleeve_length"
+        ],
+        "predicted": [
+          "sleeve_length"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Its sleeves stop midway down the forearm.",
+        "expected": [
+          "sleeve_length"
+        ],
+        "predicted": [
+          "sleeve_length"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Its aroma mixes bergamot with black tea.",
+        "expected": [
+          "scent"
+        ],
+        "predicted": [],
+        "missing": [
+          "scent"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "It gives off a cinnamon and clove scent.",
+        "expected": [
+          "scent"
+        ],
+        "predicted": [
+          "scent"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "The flame lasts for roughly 32 hours in total.",
+        "expected": [
+          "burn_time"
+        ],
+        "predicted": [
+          "burn_time"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Burning lifespan is between 70 and 80 hours.",
+        "expected": [
+          "burn_time"
+        ],
+        "predicted": [
+          "burn_time"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "The necklace hangs on a chain measuring 48 centimeters.",
+        "expected": [
+          "chain_length"
+        ],
+        "predicted": [
+          "product_type",
+          "chain_length",
+          "strap_length"
+        ],
+        "missing": [],
+        "unexpected": [
+          "product_type",
+          "strap_length"
+        ]
+      },
+      {
+        "text": "Its chain can be extended from 17 to 19 inches.",
+        "expected": [
+          "chain_length"
+        ],
+        "predicted": [
+          "chain_length"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "A button and loop keep the opening shut.",
+        "expected": [
+          "closure"
+        ],
+        "predicted": [],
+        "missing": [
+          "closure"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "The fastening uses a sliding barrel clasp.",
+        "expected": [
+          "closure"
+        ],
+        "predicted": [
+          "closure"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Its shoulder strap reaches a maximum length of 125 centimeters.",
+        "expected": [
+          "strap_length"
+        ],
+        "predicted": [
+          "dimensions",
+          "sleeve_length",
+          "chain_length",
+          "strap_length"
+        ],
+        "missing": [],
+        "unexpected": [
+          "dimensions",
+          "sleeve_length",
+          "chain_length"
+        ]
+      },
+      {
+        "text": "The distance from the handles to the opening is 28 cm.",
+        "expected": [
+          "strap_length"
+        ],
+        "predicted": [],
+        "missing": [
+          "strap_length"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Created to commemorate a graduation ceremony.",
+        "expected": [
+          "occasion"
+        ],
+        "predicted": [
+          "occasion"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "A decoration intended for a birthday celebration.",
+        "expected": [
+          "occasion"
+        ],
+        "predicted": [
+          "occasion"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Best for youngsters aged seven through ten. You will have to screw the four legs into the base. Delivered ready to use with nothing to put together.",
+        "expected": [
+          "age_group",
+          "assembly"
+        ],
+        "predicted": [
+          "age_group",
+          "assembly"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "There is room inside for eighteen eggs. Use a moist rag to gently remove marks. Launder on the delicate setting and hang to dry.",
+        "expected": [
+          "capacity",
+          "care"
+        ],
+        "predicted": [
+          "care"
+        ],
+        "missing": [
+          "capacity"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "This has been certified under the Global Organic Textile Standard. Designed to attach to a standard bicycle handlebar. You get one large piece and two smaller ones in the box.",
+        "expected": [
+          "certifications",
+          "compatibility",
+          "contents"
+        ],
+        "predicted": [
+          "contents"
+        ],
+        "missing": [
+          "certifications",
+          "compatibility"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "The unit is 72 cm wide and 38 cm deep. The back reclines into three positions. Protected by a layer of clear lacquer.",
+        "expected": [
+          "dimensions",
+          "features",
+          "finish"
+        ],
+        "predicted": [
+          "finish"
+        ],
+        "missing": [
+          "dimensions",
+          "features"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Crafted entirely from maple timber. Have a short dedication etched on the underside. This is a jewelry storage box.",
+        "expected": [
+          "material",
+          "personalization",
+          "product_type"
+        ],
+        "predicted": [
+          "material",
+          "product_type"
+        ],
+        "missing": [
+          "personalization"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "The distance between the floor and the seating surface is 52 cm. Its aesthetic takes inspiration from Scandinavian minimalism. The pattern depicts bunnies among wildflowers.",
+        "expected": [
+          "seat_height",
+          "style",
+          "theme"
+        ],
+        "predicted": [
+          "seat_height",
+          "style"
+        ],
+        "missing": [
+          "theme"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "There is room inside for eighteen eggs. Use a moist rag to gently remove marks. Launder on the delicate setting and hang to dry.",
+        "expected": [
+          "capacity",
+          "care"
+        ],
+        "predicted": [
+          "care"
+        ],
+        "missing": [
+          "capacity"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "You get one large piece and two smaller ones in the box. The unit is 72 cm wide and 38 cm deep. Protected by a layer of clear lacquer.",
+        "expected": [
+          "contents",
+          "dimensions",
+          "finish"
+        ],
+        "predicted": [
+          "contents",
+          "finish"
+        ],
+        "missing": [
+          "dimensions"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Crafted entirely from maple timber. Have a short dedication etched on the underside. This is a jewelry storage box.",
+        "expected": [
+          "material",
+          "personalization",
+          "product_type"
+        ],
+        "predicted": [
+          "material",
+          "product_type"
+        ],
+        "missing": [
+          "personalization"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "The pattern depicts bunnies among wildflowers. The exterior is bright turquoise. The shade is dusty rose.",
+        "expected": [
+          "theme",
+          "color"
+        ],
+        "predicted": [
+          "color"
+        ],
+        "missing": [
+          "theme"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Use a moist rag to gently remove marks. Launder on the delicate setting and hang to dry. You get one large piece and two smaller ones in the box.",
+        "expected": [
+          "care",
+          "contents"
+        ],
+        "predicted": [
+          "care",
+          "contents"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "The unit is 72 cm wide and 38 cm deep. Crafted entirely from maple timber. This is a jewelry storage box.",
+        "expected": [
+          "dimensions",
+          "material",
+          "product_type"
+        ],
+        "predicted": [
+          "material",
+          "product_type"
+        ],
+        "missing": [
+          "dimensions"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "The exterior is bright turquoise. The shade is dusty rose. Its aroma mixes bergamot with black tea.",
+        "expected": [
+          "color",
+          "scent"
+        ],
+        "predicted": [
+          "color"
+        ],
+        "missing": [
+          "scent"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "It gives off a cinnamon and clove scent. The flame lasts for roughly 32 hours in total. Burning lifespan is between 70 and 80 hours.",
+        "expected": [
+          "scent",
+          "burn_time"
+        ],
+        "predicted": [
+          "scent",
+          "burn_time"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Use a moist rag to gently remove marks. Launder on the delicate setting and hang to dry. The unit is 72 cm wide and 38 cm deep.",
+        "expected": [
+          "care",
+          "dimensions"
+        ],
+        "predicted": [
+          "care"
+        ],
+        "missing": [
+          "dimensions"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Crafted entirely from maple timber. Have a short dedication etched on the underside. This is a jewelry storage box.",
+        "expected": [
+          "material",
+          "personalization",
+          "product_type"
+        ],
+        "predicted": [
+          "material",
+          "product_type",
+          "chain_length"
+        ],
+        "missing": [
+          "personalization"
+        ],
+        "unexpected": [
+          "chain_length"
+        ]
+      },
+      {
+        "text": "Its aesthetic takes inspiration from Scandinavian minimalism. A rustic oak dining table. The necklace hangs on a chain measuring 48 centimeters.",
+        "expected": [
+          "style",
+          "product_type",
+          "material",
+          "chain_length"
+        ],
+        "predicted": [
+          "product_type",
+          "style",
+          "chain_length"
+        ],
+        "missing": [
+          "material"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Its chain can be extended from 17 to 19 inches. A button and loop keep the opening shut. The fastening uses a sliding barrel clasp.",
+        "expected": [
+          "chain_length",
+          "closure"
+        ],
+        "predicted": [
+          "chain_length",
+          "closure"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Best for youngsters aged seven through ten. Use a moist rag to gently remove marks. Launder on the delicate setting and hang to dry.",
+        "expected": [
+          "age_group",
+          "care"
+        ],
+        "predicted": [
+          "age_group",
+          "care"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Crafted entirely from maple timber. Have a short dedication etched on the underside. This is a jewelry storage box.",
+        "expected": [
+          "material",
+          "personalization",
+          "product_type"
+        ],
+        "predicted": [
+          "material",
+          "product_type"
+        ],
+        "missing": [
+          "personalization"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "The pattern depicts bunnies among wildflowers. A cotton baby blanket printed with stars. The exterior is bright turquoise.",
+        "expected": [
+          "theme",
+          "product_type",
+          "material",
+          "age_group",
+          "color"
+        ],
+        "predicted": [
+          "material"
+        ],
+        "missing": [
+          "theme",
+          "product_type",
+          "age_group",
+          "color"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "The shade is dusty rose. Fits chest measurements of 96 to 102 centimeters. You can order a size triple XL.",
+        "expected": [
+          "color",
+          "clothing_size"
+        ],
+        "predicted": [
+          "color",
+          "clothing_size"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "The silhouette is loose and flowing. Cut generously across the shoulders. The arms are left uncovered by this sleeveless design.",
+        "expected": [
+          "fit",
+          "sleeve_length"
+        ],
+        "predicted": [
+          "fit",
+          "sleeve_length"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "You get one large piece and two smaller ones in the box. The unit is 72 cm wide and 38 cm deep. Crafted entirely from maple timber.",
+        "expected": [
+          "contents",
+          "dimensions",
+          "material"
+        ],
+        "predicted": [
+          "contents",
+          "material"
+        ],
+        "missing": [
+          "dimensions"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Have a short dedication etched on the underside. This is a jewelry storage box. Its aesthetic takes inspiration from Scandinavian minimalism.",
+        "expected": [
+          "personalization",
+          "product_type",
+          "style"
+        ],
+        "predicted": [
+          "product_type",
+          "style"
+        ],
+        "missing": [
+          "personalization"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "The pattern depicts bunnies among wildflowers. A rustic oak dining table. The exterior is bright turquoise.",
+        "expected": [
+          "theme",
+          "product_type",
+          "material",
+          "style",
+          "color"
+        ],
+        "predicted": [
+          "product_type",
+          "style"
+        ],
+        "missing": [
+          "theme",
+          "material",
+          "color"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "There is room inside for eighteen eggs. Use a moist rag to gently remove marks. Launder on the delicate setting and hang to dry.",
+        "expected": [
+          "capacity",
+          "care"
+        ],
+        "predicted": [
+          "care"
+        ],
+        "missing": [
+          "capacity"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "The unit is 72 cm wide and 38 cm deep. The back reclines into three positions. Crafted entirely from maple timber.",
+        "expected": [
+          "dimensions",
+          "features",
+          "material"
+        ],
+        "predicted": [
+          "material"
+        ],
+        "missing": [
+          "dimensions",
+          "features"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Have a short dedication etched on the underside. This is a jewelry storage box. The exterior is bright turquoise.",
+        "expected": [
+          "personalization",
+          "product_type",
+          "color"
+        ],
+        "predicted": [
+          "product_type"
+        ],
+        "missing": [
+          "personalization",
+          "color"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "The shade is dusty rose. A button and loop keep the opening shut. The fastening uses a sliding barrel clasp.",
+        "expected": [
+          "color",
+          "closure"
+        ],
+        "predicted": [
+          "color",
+          "closure"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Best for youngsters aged seven through ten. Use a moist rag to gently remove marks. Launder on the delicate setting and hang to dry.",
+        "expected": [
+          "age_group",
+          "care"
+        ],
+        "predicted": [
+          "age_group",
+          "care"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "This has been certified under the Global Organic Textile Standard. You get one large piece and two smaller ones in the box. The unit is 72 cm wide and 38 cm deep.",
+        "expected": [
+          "certifications",
+          "contents",
+          "dimensions"
+        ],
+        "predicted": [
+          "contents"
+        ],
+        "missing": [
+          "certifications",
+          "dimensions"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Crafted entirely from maple timber. Have a short dedication etched on the underside. This is a jewelry storage box.",
+        "expected": [
+          "material",
+          "personalization",
+          "product_type"
+        ],
+        "predicted": [
+          "material",
+          "product_type"
+        ],
+        "missing": [
+          "personalization"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "The pattern depicts bunnies among wildflowers. A cotton baby blanket printed with stars. The exterior is bright turquoise.",
+        "expected": [
+          "theme",
+          "product_type",
+          "material",
+          "age_group",
+          "color"
+        ],
+        "predicted": [
+          "material"
+        ],
+        "missing": [
+          "theme",
+          "product_type",
+          "age_group",
+          "color"
+        ],
+        "unexpected": []
+      }
+    ]
+  },
+  "unseen": {
+    "precision": 0.6785714285714286,
+    "recall": 0.475,
+    "f1": 0.5588235294117647,
+    "f05": 0.625,
+    "exactMatch": 0.275,
+    "tp": 19,
+    "fp": 9,
+    "fn": 21,
+    "cases": [
+      {
+        "text": "Uses a flat wooden wick.",
+        "expected": [
+          "wick_type"
+        ],
+        "predicted": [
+          "wick_type"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "The wick is made from woven cotton.",
+        "expected": [
+          "wick_type"
+        ],
+        "predicted": [
+          "material",
+          "wick_type"
+        ],
+        "missing": [],
+        "unexpected": [
+          "material"
+        ]
+      },
+      {
+        "text": "A single hemp wick runs through the center.",
+        "expected": [
+          "wick_type"
+        ],
+        "predicted": [],
+        "missing": [
+          "wick_type"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Features three cotton-core wicks.",
+        "expected": [
+          "wick_type"
+        ],
+        "predicted": [
+          "material",
+          "wick_type"
+        ],
+        "missing": [],
+        "unexpected": [
+          "material"
+        ]
+      },
+      {
+        "text": "The wick is zinc-free cotton.",
+        "expected": [
+          "wick_type"
+        ],
+        "predicted": [
+          "material",
+          "wick_type"
+        ],
+        "missing": [],
+        "unexpected": [
+          "material"
+        ]
+      },
+      {
+        "text": "A natural wood wick creates a crackle.",
+        "expected": [
+          "wick_type"
+        ],
+        "predicted": [
+          "wick_type"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Fitted with an unbleached cotton wick.",
+        "expected": [
+          "wick_type"
+        ],
+        "predicted": [
+          "material",
+          "wick_type"
+        ],
+        "missing": [],
+        "unexpected": [
+          "material"
+        ]
+      },
+      {
+        "text": "Two braided hemp wicks are used.",
+        "expected": [
+          "wick_type"
+        ],
+        "predicted": [
+          "wick_type"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "The center wick consists of a thin strip of cedar.",
+        "expected": [
+          "wick_type"
+        ],
+        "predicted": [],
+        "missing": [
+          "wick_type"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Its wick is a tightly braided cotton cord.",
+        "expected": [
+          "wick_type"
+        ],
+        "predicted": [
+          "material",
+          "wick_type"
+        ],
+        "missing": [],
+        "unexpected": [
+          "material"
+        ]
+      },
+      {
+        "text": "The stone is turquoise.",
+        "expected": [
+          "gemstone"
+        ],
+        "predicted": [
+          "gemstone"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "It contains a faceted emerald.",
+        "expected": [
+          "gemstone"
+        ],
+        "predicted": [],
+        "missing": [
+          "gemstone"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Set with a polished amethyst.",
+        "expected": [
+          "gemstone"
+        ],
+        "predicted": [],
+        "missing": [
+          "gemstone"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "An opal sits in the center.",
+        "expected": [
+          "gemstone"
+        ],
+        "predicted": [],
+        "missing": [
+          "gemstone"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "The gem is rose quartz.",
+        "expected": [
+          "gemstone"
+        ],
+        "predicted": [
+          "gemstone"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Features a small ruby.",
+        "expected": [
+          "gemstone"
+        ],
+        "predicted": [],
+        "missing": [
+          "gemstone"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "The focal stone is aquamarine.",
+        "expected": [
+          "gemstone"
+        ],
+        "predicted": [
+          "gemstone"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Set with natural peridot.",
+        "expected": [
+          "gemstone"
+        ],
+        "predicted": [],
+        "missing": [
+          "gemstone"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "The centerpiece is a polished cabochon of labradorite.",
+        "expected": [
+          "gemstone"
+        ],
+        "predicted": [],
+        "missing": [
+          "gemstone"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Its featured gem is blue topaz.",
+        "expected": [
+          "gemstone"
+        ],
+        "predicted": [],
+        "missing": [
+          "gemstone"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "The print is sold without a frame.",
+        "expected": [
+          "framing"
+        ],
+        "predicted": [
+          "framing",
+          "print_process"
+        ],
+        "missing": [],
+        "unexpected": [
+          "print_process"
+        ]
+      },
+      {
+        "text": "Supplied in a white wooden frame.",
+        "expected": [
+          "framing"
+        ],
+        "predicted": [
+          "wick_type",
+          "framing"
+        ],
+        "missing": [],
+        "unexpected": [
+          "wick_type"
+        ]
+      },
+      {
+        "text": "A metal frame surrounds the artwork.",
+        "expected": [
+          "framing"
+        ],
+        "predicted": [
+          "framing"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Framing is not included.",
+        "expected": [
+          "framing"
+        ],
+        "predicted": [],
+        "missing": [
+          "framing"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "An optional frame can be added.",
+        "expected": [
+          "framing"
+        ],
+        "predicted": [
+          "framing"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "The artwork is already framed.",
+        "expected": [
+          "framing"
+        ],
+        "predicted": [],
+        "missing": [
+          "framing"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Ships as an unframed sheet.",
+        "expected": [
+          "framing"
+        ],
+        "predicted": [
+          "framing"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Arrives mounted behind glass in a frame.",
+        "expected": [
+          "framing"
+        ],
+        "predicted": [],
+        "missing": [
+          "framing"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "The price covers the artwork only, with no framing supplied.",
+        "expected": [
+          "framing"
+        ],
+        "predicted": [
+          "assembly"
+        ],
+        "missing": [
+          "framing"
+        ],
+        "unexpected": [
+          "assembly"
+        ]
+      },
+      {
+        "text": "A thin walnut frame accompanies the picture.",
+        "expected": [
+          "framing"
+        ],
+        "predicted": [],
+        "missing": [
+          "framing"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Produced by letterpress printing.",
+        "expected": [
+          "print_process"
+        ],
+        "predicted": [],
+        "missing": [
+          "print_process"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "This is a lithographic reproduction.",
+        "expected": [
+          "print_process"
+        ],
+        "predicted": [],
+        "missing": [
+          "print_process"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Printed with a hand-carved woodblock.",
+        "expected": [
+          "print_process"
+        ],
+        "predicted": [
+          "product_type",
+          "print_process"
+        ],
+        "missing": [],
+        "unexpected": [
+          "product_type"
+        ]
+      },
+      {
+        "text": "The process is cyanotype printing.",
+        "expected": [
+          "print_process"
+        ],
+        "predicted": [],
+        "missing": [
+          "print_process"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "The image is a risograph print.",
+        "expected": [
+          "print_process"
+        ],
+        "predicted": [],
+        "missing": [
+          "print_process"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Made with traditional etching techniques.",
+        "expected": [
+          "print_process"
+        ],
+        "predicted": [],
+        "missing": [
+          "print_process"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "A serigraph pulled by hand.",
+        "expected": [
+          "print_process"
+        ],
+        "predicted": [
+          "print_process"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "Produced with digital pigment printing.",
+        "expected": [
+          "print_process"
+        ],
+        "predicted": [],
+        "missing": [
+          "print_process"
+        ],
+        "unexpected": []
+      },
+      {
+        "text": "Created by pressing ink through a silk screen.",
+        "expected": [
+          "print_process"
+        ],
+        "predicted": [
+          "print_process"
+        ],
+        "missing": [],
+        "unexpected": []
+      },
+      {
+        "text": "The image was transferred using a carved relief block.",
+        "expected": [
+          "print_process"
+        ],
+        "predicted": [],
+        "missing": [
+          "print_process"
+        ],
+        "unexpected": []
+      }
+    ]
+  },
+  "chair": {
+    "text": "Handcrafted solid wood dining chair designed for everyday comfort and timeless style. Made for adults and older teens, this chair features a supportive back, comfortable 18-inch seat height, and sturdy construction suitable for dining rooms, kitchens, desks, or reading areas. Crafted from durable hardwood with a smooth natural matte finish, it pairs well with modern, farmhouse, rustic, and minimalist decor. The chair measures approximately 34 inches high by 18 inches wide by 20 inches deep and supports up to 250 pounds. Minor assembly is required, and all necessary hardware is included. For care, simply wipe clean with a soft, damp cloth and avoid harsh chemical cleaners. Features include solid wood construction, reinforced joints, a smooth protective finish, and a comfortable everyday design. Personalization is available for select finishes or engraved details, so please contact us before ordering if you have a specific customization request. This wooden dining chair is compatible with most standard-height dining tables and is made using responsibly sourced wood materials.",
+    "expected": [
+      "age_group",
+      "assembly",
+      "capacity",
+      "care",
+      "compatibility",
+      "contents",
+      "dimensions",
+      "features",
+      "finish",
+      "material",
+      "personalization",
+      "product_type",
+      "seat_height",
+      "style"
+    ],
+    "predicted": [
+      "age_group",
+      "assembly",
+      "care",
+      "compatibility",
+      "contents",
+      "dimensions",
+      "features",
+      "material",
+      "product_type",
+      "seat_height",
+      "style"
+    ],
+    "missing": [
+      "capacity",
+      "finish",
+      "personalization"
+    ],
+    "unexpected": []
+  }
+}
